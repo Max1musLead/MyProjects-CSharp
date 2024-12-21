@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" />
+      <PackageReference Include="Itmo.Dev.Platform.Postgres" />
+      <PackageReference Include="Npgsql" />
+      <PackageReference Include="Spectre.Console" />
+    </ItemGroup>
+
+</Project>
